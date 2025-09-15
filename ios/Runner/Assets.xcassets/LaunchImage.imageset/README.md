@@ -18,5 +18,3 @@ A simple Tinder-like Flutter demo app with:
 - Cloud Functions (optional) handle matches and invite links.
 
 ---
-
-## 📂 Project Structure

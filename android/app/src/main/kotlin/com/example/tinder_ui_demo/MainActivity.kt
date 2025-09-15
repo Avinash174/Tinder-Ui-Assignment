@@ -1,4 +1,4 @@
-package com.example.tinder_ui_demo
+package com.avinash.tinder_ui_demo
 
 import io.flutter.embedding.android.FlutterActivity
 
