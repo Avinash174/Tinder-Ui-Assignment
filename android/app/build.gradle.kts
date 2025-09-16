@@ -12,7 +12,7 @@ android {
     ndkVersion = flutter.ndkVersion
      defaultConfig {
         applicationId = "com.avinash.tinder_ui_demo"
-        minSdk = 21        // ✅ use 'minSdk' instead of 'minSdkVersion'
+        minSdk = flutter.minSdkVersion        // ✅ use 'minSdk' instead of 'minSdkVersion'
         targetSdk = 33     // ✅ use 'targetSdk' instead of 'targetSdkVersion'
         versionCode = 1
         versionName = "1.0"
