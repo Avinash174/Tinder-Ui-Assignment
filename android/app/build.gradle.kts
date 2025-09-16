@@ -8,10 +8,14 @@ plugins {
 
 android {
     namespace = "com.avinash.tinder_ui_demo"
-    compileSdk = 33
+    compileSdk = 36
     ndkVersion = flutter.ndkVersion
-    defaultConfig {
-        minSdkVersion 21
+     defaultConfig {
+        applicationId = "com.avinash.tinder_ui_demo"
+        minSdk = 21        // ✅ use 'minSdk' instead of 'minSdkVersion'
+        targetSdk = 33     // ✅ use 'targetSdk' instead of 'targetSdkVersion'
+        versionCode = 1
+        versionName = "1.0"
     }
 
     compileOptions {
