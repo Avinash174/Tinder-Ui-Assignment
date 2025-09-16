@@ -8,8 +8,11 @@ plugins {
 
 android {
     namespace = "com.avinash.tinder_ui_demo"
-    compileSdk = flutter.compileSdkVersion
+    compileSdk = 33
     ndkVersion = flutter.ndkVersion
+    defaultConfig {
+        minSdkVersion 21
+    }
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
